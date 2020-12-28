@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+:root{
+--sidebar-flex:1.5;
+--condiv-flex:6;
+--fontsize-p:1.2rem;
+--fontsize-nav:1.6rem;
+--typing-font:3rem;
+}
+*
+{
+margin:0;
+padding: 0;
+}
+body
+{
+font-family: 'Raleway';
+}
+.App
+{
+width: 100vw;
+min-height: 100vh;
+
+}
+.navbar {
+  position: fixed;
+  top:0;
+  width:100%;
+  text-align: right;
+  background-color: #866491;
+}
+
+.home-section {
+  height: 100vh;
+  top:0;
+  background-color: #866491;
+}
+
+.about-section {
+  height: 100vh;
+  top:0;
+  background-color: #866491;
+}
+.products-section {
+  height: 100vh;
+  top:0;
+  background-color: #866491;
+}
+.support-section {
+  height: 100vh;
+  top:0;
+  background-color: #866491;
+}
+.navbar > .active {
+  top:0;
+  border-bottom: 1px solid black;
+}
+.navbar :hover{
+  cursor: pointer;
+}
